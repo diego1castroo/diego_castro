@@ -125,6 +125,9 @@ body {
 .hero .info-content p, .hero1 .intereses p, .hero2 .habilidades p {
   font-family: 'Montserrat', sans-serif;
 }
+.comentarios .com p {
+  font-family: 'Montserrat', sans-serif;
+}
 .radio-section {
   display: grid;
   height: 80px;
