@@ -28,7 +28,7 @@ body {
 }
 
 .navbar .logo:hover {
-  transform: scale(1.10);
+  transform: scale(1.5);
 }
 
 .navbar .menu {
