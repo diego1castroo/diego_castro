@@ -56,13 +56,17 @@ body {
   background-color: #393e46 !important;
   position: fixed;
   z-index: 100;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /*width: 100%;*/
 }
 .bg-dark1{
   background-color: #393e46;
   position: fixed;
   z-index: 100;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /*width: 100%;*/
   border-bottom: 2px solid #572364;
 }
 @media (min-width: 768px){
