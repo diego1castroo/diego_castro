@@ -24,7 +24,7 @@ body {
   width: 60px;
   grid-column: 2 / 3;
   cursor: pointer;
-  border-radius: 40%;
+  border-radius: 80%;
 }
 
 .navbar .logo:hover {
