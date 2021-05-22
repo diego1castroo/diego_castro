@@ -223,6 +223,26 @@ body {
     cursor: pointer;
     z-index: 1;
   }  
+  .bg-dark{
+  background-color: #393e46 !important;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  }
+  .bg-dark1{
+    background-color: #393e46;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 2px solid #572364;
+  }
+  @media (min-width: 768px){
+    .bg-dark{
+      background-color: transparent !important;
+    }
+  }
+  
+  
   .hero .info-content, .hero1 .intereses, .hero2 .habilidades, .hero3 .comentarios {
     z-index: 0;
     grid-column: 2 / 9;
