@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Diego C.</title>
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="bg-dark bg-dark1" id="mecSoc">      
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <img src="img/perfil.jpg" class="logo" alt="Diego A. C. de J.">
+          <ul class="menu" id="menu">
+            <li><a href="#informacion">Datos Personales</a></li>
+            <li><a href="#intereses">Intereses</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#comentarios">Comentarios</a></li>
+          </ul>
+          <div class="menu-bar">
+            <i class="fas fa-bars" id="menu-bar"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="hero">
+      <div class="info-content" data-aos="fade-up" data-aos-duration="3000" id="informacion">
+            <h3>Estudiante</h3>
+            <h1>Diego Armando</h1>
+            <p>Estudiante de Ingeniería en Sistemas Computacionales
+            Universidad Mexiquense del Bicentenario
+            UES San José del Rincón</p>
+      </div>  
+    </main>
+
+    <main class="hero1">
+      <div class="intereses" data-aos="fade-up" data-aos-duration="3000" id="intereses">
+        <h1>Intereses</h1>
+        <p>Ver o jugar futbol, hacer programas aunque (aun soy novato), estar con la familia, en ocasiones suelo dibujar, el romance, entre otros aspectos.</p>
+      </div>
+    </main>
+
+    <main class="hero2">
+      <div class="habilidades" data-aos="fade-up" data-aos-duration="3000" id="habilidades">
+        <h1>Habilidades</h1>
+        <p>Capacidad para resolver problemas</p>
+        <p>Creatividad</p>
+        <p>Actitud positiva</p>
+        <p>Confianza</p>
+        <p>Codificar</p>
+        <p>Pensamiento Critico</p>
+        <p>Proactividad</p>
+      </div>
+    </main>
+
+    <section class="comentarios" id="comentarios">
+      <div class="com">
+        <h1 class="text-center">Comentarios</h1>
+        
+      </div>
+    </section>
+    
+    <div class="radio-section">
+      <div class="listen-online">
+        <button onmousedown="sonido.play()" class="audio"> <i class="fas fa-caret-right"></i> </button>
+        <h3>Ambientiza tu estadia</h3>
+      </div> 
+      <h2>Redes Sociales</h2>
+      <div class="social-network">
+        <a href="https://wa.link/0q30qn"> <i class="fab fa-whatsapp"></i> </a>
+        <a href="https://www.facebook.com/profile.php?id=100043034204360"> <i class="fab fa-facebook-f"></i> </a>
+        <a href="https://www.instagram.com/p/Bg9Z_aQh6e88619RtXcGm-cAuiTgECec6QnoE40/?utm_medium=copy_link"> <i class="fab fa-instagram"></i> </a>
+      </div>
+    </div>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- --------------------------------------------------------  -->
+    <script src="JS/jscript.js"></script>    
+    <!-- --------------------------------------------------------  -->
+  </body>
+<script>
+  var sonido = new Audio();
+  sonido.src = "music/sin-copyright.mp3";
+  document.body.appendChild(audio);
+</script>
+
+</html>
